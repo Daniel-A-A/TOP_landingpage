@@ -15,15 +15,19 @@ ul {
     list-style-type: none;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 /* Main CSS */
+
+/* Header */
 
 .header {
     height: 100px;
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    font-family: "Roboto", sans-serif;
-    
     color: #e5e7eb;
     padding: 10px;
 }
@@ -41,4 +45,80 @@ ul {
 .header-right h2 {
     font-weight: 300;
     font-size: 24px;
+}
+
+/* Content 1 */
+
+.content1 {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 500px;
+}
+
+.content1-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    gap: 15px;
+}
+
+.content1-left h1 {
+    font-size: 48px;
+    margin-bottom: -10px;
+}
+
+.content1-left button {
+    background-color: #3882F6;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    width: 10em;
+}
+   
+
+.content1-right {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.content1-right img {
+    max-width: 100%;
+    max-height: 110%;
+}
+
+.content1-right, .content1-left {
+    flex: auto;
+    width: 100%;
+}
+
+/* Content 2 */
+
+.content2 {
+    outline: 2px solid blue;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.content2 h2 {
+    text-align: center;
+    font-size: 38px;
+}
+
+.content2-items-container {
+    outline: 2px solid blue;
+    display: flex;
+}
+
+.content2-items-container div {
+    display: flex;
+    flex-direction: column;
+    outline: 2px solid red;
 }

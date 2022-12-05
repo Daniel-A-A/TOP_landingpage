@@ -22,6 +22,20 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+button:hover {
+    opacity: .5;
+    transition: .5s;
+}
+
+a:hover {
+    opacity: .5;
+    transition: .5s;
+}
+
+button {
+    cursor: pointer;
+}
+
 /* Main CSS */
 
 /* Header */

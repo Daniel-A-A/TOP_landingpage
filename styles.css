@@ -21,6 +21,8 @@ body {
 
 /* Main CSS */
 
+
+
 /* Header */
 
 .header {
@@ -46,6 +48,8 @@ body {
     font-weight: 300;
     font-size: 24px;
 }
+
+
 
 /* Content 1 */
 
@@ -76,8 +80,7 @@ body {
     color: white;
     border-radius: 5px;
     width: 10em;
-}
-   
+}   
 
 .content1-right {
     display: flex;
@@ -97,10 +100,11 @@ body {
     width: 100%;
 }
 
+
+
 /* Content 2 */
 
 .content2 {
-    outline: 2px solid blue;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -113,12 +117,27 @@ body {
 }
 
 .content2-items-container {
-    outline: 2px solid blue;
     display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
 }
 
 .content2-items-container div {
     display: flex;
     flex-direction: column;
-    outline: 2px solid red;
+    min-height: 250px;
+    width: 200px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.content2-items-container img {
+    border-radius: 10px;
+}
+
+.content2-items-container p {
+    padding: 10px;
+}
+
+.content2-items-1 {
 }

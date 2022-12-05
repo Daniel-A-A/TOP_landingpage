@@ -197,3 +197,39 @@ body {
 
 /* Content 4 */
 
+.content4-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content4 {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+
+
+
+/* Footer */
+
+.footer-container {
+    background-color: #1f2937;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #f9faf8;
+}

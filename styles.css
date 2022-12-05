@@ -212,8 +212,29 @@ body {
     height: 300px;
 }
 
+.signup-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3882F6;
+    width: 80%;
+    height: 130px;
+    border-radius: 10px;
+    color: #f9faf8;
+}
 
+.signup2 {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 10px;
+    color: white;
+    padding: 10px 30px;
+}
 
+.signup-left, .signup2 {
+    margin: 30px;
+}
 
 /* Footer */
 
